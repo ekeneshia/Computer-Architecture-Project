@@ -15,3 +15,4 @@ By Ekene Okeke
 - Download file from github link
 - cd to project 2 folder in the Terminal
 - Run the following command: **python project2_ekene.py**
+- View the project_output file to see the test runs with screenshots (for grading purposes)
