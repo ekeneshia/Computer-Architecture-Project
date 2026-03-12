@@ -1,5 +1,9 @@
 #EKene Okeke project 2
+# Spring 2026 Computer Architecture 
 
+# What I have implemented:
+# User can input the variable number 
+# can choose from
 import itertools
 
 
