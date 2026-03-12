@@ -1,5 +1,5 @@
 # Computer Architecture Project 2 Submission
-Spring 2026 Computer Architecture
+By Ekene Okeke
 
 # Truth Table → Boolean Equation → K-Map Simplification (Task 2)
 
@@ -11,7 +11,7 @@ Spring 2026 Computer Architecture
 - project2/project2_ekene.py: project 2 folder that contains the project2_ekene.py files that would be used to run the Truth Table to Boolean Equation to K-Map Simplification
 
 
-
-
-
-**Problem Statement:**
+**Installation Steps:**
+- Download file from github link
+- cd to project 2 folder in the Terminal
+- Run the following command: **python project2_ekene.py**
