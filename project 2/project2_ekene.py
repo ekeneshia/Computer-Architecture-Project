@@ -227,7 +227,6 @@ def simplify_POS(table, n, vars):
     return "".join(final_terms)
 
 def run_reduction(indices, n):
-    """Helper to find the smallest set of terms using bit-comparison."""
     current_terms = set(bin(i)[2:].zfill(n) for i in indices)
     all_primes = set()
     
