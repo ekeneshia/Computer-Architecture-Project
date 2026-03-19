@@ -156,8 +156,8 @@ if n == 2:
 elif n == 3:
 
     kmap = [
-        [values[0], values[1], values[3], values[2]],  # A=0
-        [values[4], values[5], values[7], values[6]]   # A=1
+        [values[0], values[1], values[3], values[2]],  # A = 0
+        [values[4], values[5], values[7], values[6]]   # A = 1
     ]
     
     print("        BC")
@@ -168,10 +168,10 @@ elif n == 3:
 elif n == 4:
     
     kmap = [
-        [values[0],  values[1],  values[3],  values[2]],  # AB=00
-        [values[4],  values[5],  values[7],  values[6]],  # AB=01
-        [values[12], values[13], values[15], values[14]], # AB=11
-        [values[8],  values[9],  values[11], values[10]]  # AB=10
+        [values[0],  values[1],  values[3],  values[2]],  # AB = 00
+        [values[4],  values[5],  values[7],  values[6]],  # AB =  01
+        [values[12], values[13], values[15], values[14]], # AB = 11
+        [values[8],  values[9],  values[11], values[10]]  # AB = 10
     ]
     
     print("        CD")
