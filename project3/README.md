@@ -1,7 +1,7 @@
 # Computer Architecture Project 3 Submission
 By Ekene Okeke
 
-# Truth Table → Boolean Equation → K-Map Simplification (Task 2)
+# Memory Hierarchy Simulation (SSD -> DRAM -> Cache)
 
 ## Table of Contents 
 1. Project Contents Overview
