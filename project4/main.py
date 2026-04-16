@@ -49,7 +49,7 @@ def main():
         pc_unit.update()
         reg_state = ", ".join([f"{r}: {hex(rf.registers.get(r, 0))}" for r in ['t0', 't1', 't2', 't3', 't4', 't6']])
         print(f"Register File State: {reg_state}")
-        print("-" * 60) # Visual separator
+        print("-" * 60) 
 
    
     print(f"\nFinal Result Y (t0): {hex(rf.registers['t0'])}")
