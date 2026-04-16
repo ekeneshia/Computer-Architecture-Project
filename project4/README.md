@@ -39,9 +39,8 @@ Initial Values: A=12, B=10, C=15, D=5
     rf.registers['t2'] = 15  # C
     rf.registers['t3'] = 5   # D
 
-   
-    expected output from  run 
-![alt text](image.png)
+expected output from  run 
+![alt text](image-1.png)
 
 **DEMO VIDEO LINK**
 Link to the Demo video: [Project4demo](https://drive.google.com/file/d/1TbZp82ZxAI4h9GpBifTV4Xo2pxI1tfyn/view?usp=sharing)  need to change this later

@@ -16,7 +16,7 @@ def main():
     cu = ControlUnit()
     # dm = DataMemory() # We are not using the data memory
 
-    # Initial Values: A=12, B=10, C=15, D=5
+    # Initial values  A=12, B=10, C=15, D=5
     rf.registers['t0'] = 12  # A
     rf.registers['t1'] = 10  # B
     rf.registers['t2'] = 15  # C
@@ -44,7 +44,12 @@ def main():
         rf.write(rd, alu_out, signals["reg_write"])
 
         print(f"PC {curr_pc}: {opcode} {rd}, {rs}, {rt} | Result: {hex(alu_out)}")
+       
+        print(f"Control Signals: ALU_Op={signals['alu_op']}, Inv={signals['inv_flag']}, RegWrite={signals['reg_write']}")
         pc_unit.update()
+        reg_state = ", ".join([f"{r}: {hex(rf.registers.get(r, 0))}" for r in ['t0', 't1', 't2', 't3', 't4', 't6']])
+        print(f"Register File State: {reg_state}")
+        print("-" * 60) # Visual separator
 
    
     print(f"\nFinal Result Y (t0): {hex(rf.registers['t0'])}")
