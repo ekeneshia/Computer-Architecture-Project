@@ -14,7 +14,7 @@ def main():
     rf = RegisterFile()
     alu = ALU()
     cu = ControlUnit()
-    # dm = DataMemory() # We are not using the data memory
+    # dm = DataMemory() 
 
     # Initial values  A=12, B=10, C=15, D=5
     rf.registers['t0'] = 12  # A
